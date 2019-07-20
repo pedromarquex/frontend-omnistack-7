@@ -1,0 +1,29 @@
+header#main-header {
+    background: #fff;
+    height: 72px;
+    border-bottom: 1px solid #DDD; 
+}
+
+header#main-header .header-content {
+    
+    /* deixa a largura em 100% caso a largura seja menor que 980px */
+    width: 100%; 
+    max-width: 980px;
+    /* centraliza o conteúdo da div */
+    margin: 0 auto;
+    /* altura da div */ 
+    height: 72px;
+    /* distancia os itens da borda */
+    padding: 0 30px;
+
+    /* trabalhando com flexbox */
+    display: flex;
+
+    /* deixa os itens alinhados no centro da box */
+    align-items: center;
+
+    /* deixa um item totalmente à esquerda e o outro
+    totalmene à esquerda */
+    justify-content: space-between;
+    
+}
